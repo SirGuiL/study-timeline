@@ -12,6 +12,7 @@ import ListItem from "../molecules/ListItem.vue"
       <ListItem date="March 4, 2023" title="Machine learning with decision tree" description="Machine learning project with nodejs and decision tree logic." type="fa-solid fa-robot" />
       <ListItem date="March 8, 2023" title="Amazon clone with Tailwind and Vue" description="Clone of the Amazon e-commerce book tab with interactions, using TailwindCSS and Vue." type="devicon-vuejs-plain" />
       <ListItem date="March 10, 2023" title="Study progress with Vue, Tailwind CSS and Flowbite" description="Project made with Vue, Tailwind CSS and Flowbite with the objective of monitoring the progress in the studies of the mentoring themes." type="devicon-vuejs-plain" />
+      <ListItem date="March 11, 2023" title="Realtime twitter clone with Elixir and Phoenix" description="Twitter clone made with Elixir and Phoenix." type="devicon-elixir-plain" />
     </ol>
   </section>
 </template>
