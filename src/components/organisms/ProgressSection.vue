@@ -14,9 +14,9 @@
     <div class="flex items-center opacity-40 hover:opacity-100 transition-opacity cursor-pointer mt-10" id="lua">
         <i class="devicon-lua-plain text-9xl text-white"></i>
         <div class="h-5 w-full rounded-full bg-gray-500 ml-10">
-            <div class="h-5 w-1/2 bg-indigo-600 rounded-full"></div>
+            <div class="h-5 w-full bg-indigo-600 rounded-full"></div>
         </div>
-        <span class="text-white mr-10 ml-5 text-lg font-bold">50%</span>
+        <span class="text-white mr-10 ml-5 text-lg font-bold">100%</span>
     </div>
     <div class="flex items-center opacity-40 hover:opacity-100 transition-opacity cursor-pointer mt-10" id="go">
         <i class="devicon-go-original-wordmark text-9xl text-white"></i>

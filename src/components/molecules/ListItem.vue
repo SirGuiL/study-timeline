@@ -14,7 +14,7 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  type: {
+  icon: {
     type: String,
     required: true,
   },
@@ -35,7 +35,7 @@ const props = defineProps({
       >{{ date }}</time
     >
     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-      <i :class="`${type} mr-1`"></i>
+      <i :class="`${icon} mr-1`"></i>
       {{ title }}
     </h3>
     <p class="text-base font-normal text-gray-500 dark:text-gray-400">
