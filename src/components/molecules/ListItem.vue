@@ -18,9 +18,11 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  link: {
+    type: String,
+    required: true
+  }
 });
-
-// devicon-vuejs-plain mr-1
 </script>
 
 <template>
@@ -40,7 +42,7 @@ const props = defineProps({
       {{ description }}
     </p>
     <a
-      href="https://github.com/SirGuiL/facebook-login-tailwind-clone"
+      :href="link"
       target="_blank"
       class="mt-4 inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
     >
