@@ -15,6 +15,7 @@ import ListItem from "../molecules/ListItem.vue"
       <ListItem date="March 11, 2023" title="Realtime twitter clone with Elixir and Phoenix" description="Twitter clone made with Elixir and Phoenix." icon="devicon-elixir-plain" link="https://github.com/SirGuiL/realtime-twitter-clone" />
       <ListItem date="March 12, 2023" title="First step with Golang" description="First steps with go, creating and exporting first functions, creating first variables and making first requests." icon="devicon-go-original-wordmark" link="https://github.com/SirGuiL/first-steps-with-go" />
       <ListItem date="March 12, 2023" title="RPG functions with Lua" description="Basic functions of an object-oriented rpg in Lua." icon="devicon-lua-plain" link="https://github.com/SirGuiL/rpg-with-lua" />
+      <ListItem date="March 13, 2023" title="CRUD with Golang" description="CRUD of books with Golang" icon="devicon-go-original-wordmark" link="https://github.com/SirGuiL/crud-with-go" />
     </ol>
   </section>
 </template>
